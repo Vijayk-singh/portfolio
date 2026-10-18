@@ -1,0 +1,198 @@
+{
+  "profile": {
+    "name": "Vijay Kumar",
+    "role": "Software Engineering · Network Automation · Cybersecurity",
+    "eyebrow": "M.Tech CSE (Cybersecurity) · Delhi Technological University",
+    "headline": "I build software that gets closer to the system.",
+    "summary": "From Linux network diagnostics to concurrent C++ systems and AI-enabled applications, I turn complex technical ideas into practical, testable software.",
+    "about": "I’m an M.Tech CSE student specializing in Cybersecurity at Delhi Technological University, with MCA and BCA foundations from IGNOU. I enjoy building software where reliability, debugging, and security matter—from backend APIs and automated network checks to system-level experiments. I’m interested in software engineering, SDET and automation, networking, and security engineering roles where I can ship useful tools, test carefully, and keep learning.",
+    "location": "Delhi, India",
+    "availability": "Open to software engineering, SDET / automation, networking, and cybersecurity opportunities.",
+    "email": "",
+    "githubUrl": "",
+    "linkedinUrl": "",
+    "resumeUrl": ""
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "C++",
+        "Python",
+        "Go",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Backend & Web",
+      "items": [
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "React",
+        "REST APIs",
+        "JWT"
+      ]
+    },
+    {
+      "category": "Systems & Networking",
+      "items": [
+        "Linux",
+        "TCP/IP",
+        "Wireshark",
+        "tcpdump",
+        "tshark",
+        "Wi-Fi diagnostics"
+      ]
+    },
+    {
+      "category": "Data & Tools",
+      "items": [
+        "MongoDB",
+        "Redis",
+        "NumPy",
+        "pandas",
+        "Pytest"
+      ]
+    },
+    {
+      "category": "Engineering Focus",
+      "items": [
+        "Test automation",
+        "Packet analysis",
+        "Concurrency",
+        "Security validation",
+        "Debugging"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech, Computer Science & Engineering",
+      "specialization": "Cybersecurity",
+      "institution": "Delhi Technological University (DTU)",
+      "period": "2025 – 2027",
+      "note": "Focus: cybersecurity, networked systems, and secure software engineering."
+    },
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "specialization": "",
+      "institution": "Indira Gandhi National Open University (IGNOU)",
+      "period": "Completed 2025",
+      "note": "Software development and computer science foundations."
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "specialization": "",
+      "institution": "Indira Gandhi National Open University (IGNOU)",
+      "period": "Completed",
+      "note": "Foundational programming, databases, and computer systems."
+    }
+  ],
+  "projects": [
+    {
+      "id": "wifitestlab",
+      "title": "WiFiTestLab",
+      "category": "Network Automation",
+      "status": "In progress",
+      "featured": true,
+      "description": "A Linux-first, modular Python/Pytest framework for validating Wi-Fi interface state, association, IP configuration, gateway reachability, DNS, and Internet access. Captures diagnostic evidence with tcpdump/tshark and summarizes latency, packet loss, and DNS response time.",
+      "details": "Designed around repeatable checks and useful failure evidence rather than a one-off connectivity test. The goal is to make Wi-Fi troubleshooting easier to reproduce, compare, and discuss in an SDET or network engineering review.",
+      "stack": [
+        "Python",
+        "Pytest",
+        "Linux",
+        "tcpdump",
+        "tshark"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "minidb",
+      "title": "MiniDB — Thread-Safe In-Memory Database",
+      "category": "Systems Programming",
+      "status": "Built",
+      "featured": true,
+      "description": "A C++17 project exploring a thread-safe in-memory key-value store, skip-list-based data organization, transaction boundaries, and write-ahead logging (WAL) concepts.",
+      "details": "A systems-oriented project for discussing concurrency, ACID properties, transaction lifecycle, and how a write-ahead log can support recovery-oriented design. Keep the repository link updated so reviewers can inspect the implementation directly.",
+      "stack": [
+        "C++17",
+        "Multithreading",
+        "Skip List",
+        "WAL",
+        "ACID"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "cachesim",
+      "title": "CacheSim — Direct-Mapped Cache Simulator",
+      "category": "Computer Architecture",
+      "status": "In progress",
+      "featured": true,
+      "description": "A configurable C++17 simulator that maps memory addresses into tag, index, and block-offset fields and tracks cache hits, misses, and hit rate across access patterns.",
+      "details": "Built to make memory hierarchy behavior concrete: vary cache capacity and block size, follow address mapping, and observe how locality changes the hit/miss profile.",
+      "stack": [
+        "C++17",
+        "Computer Architecture",
+        "Cache Mapping",
+        "Simulation"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "exam-platform",
+      "title": "AI-Powered Examination Platform",
+      "category": "Full-Stack & GenAI",
+      "status": "In progress",
+      "featured": true,
+      "description": "A full-stack examination-platform project focused on exam workflows and AI-assisted features, with a modular web-app structure.",
+      "details": "The project connects product-oriented web development with applied GenAI. Update this description to name the exact AI features that are implemented before presenting it as production-ready work.",
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "GenAI"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "jolu-ecommerce",
+      "title": "Jolu E-commerce App",
+      "category": "Full-Stack Development",
+      "status": "Built",
+      "featured": false,
+      "description": "A full-stack e-commerce application using a React frontend with a Node.js and MongoDB backend for product and order workflows.",
+      "details": "A practical project connecting UI state, API routes, and persistent data. Add screenshots or a live demo link when available.",
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "REST API"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "fastapi-faq",
+      "title": "FastAPI FAQ Chatbot",
+      "category": "AI Applications",
+      "status": "Built",
+      "featured": false,
+      "description": "A lightweight API-backed FAQ chatbot built with FastAPI, focused on turning user questions into useful answers.",
+      "details": "A compact example of serving an AI-style interaction behind an API boundary. Add evaluation results or implementation specifics once you have evidence to share.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "APIs"
+      ],
+      "repoUrl": "",
+      "demoUrl": ""
+    }
+  ]
+}

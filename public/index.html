@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101923">
+  <meta name="description" content="Vijay Kumar — software engineering, network automation, systems programming, and cybersecurity portfolio.">
+  <title>Vijay Kumar | Software · Networks · Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Vijay Kumar home">
+        <span class="brand-mark">VK<span>.</span></span>
+        <span class="brand-caption">SOFTWARE / SYSTEMS</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#skills">Toolkit</a>
+        <a href="#journey">Journey</a>
+      </nav>
+      <div class="nav-actions">
+        <a id="nav-resume" class="nav-resume" href="#contact" hidden>Resume ↗</a>
+        <button class="admin-trigger" id="admin-open" type="button"><span class="tiny-dot"></span> Manage</button>
+        <button class="mobile-menu" id="mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span id="profile-eyebrow">M.Tech CSE (Cybersecurity) · Delhi Technological University</span></div>
+          <p class="hello-line">HELLO, I'M <span id="profile-name-kicker">VIJAY KUMAR</span></p>
+          <h1 id="profile-headline">I build software that gets <em>closer to the system.</em></h1>
+          <p class="hero-summary" id="profile-summary">From Linux network diagnostics to concurrent C++ systems and AI-enabled applications, I turn complex technical ideas into practical, testable software.</p>
+          <div class="hero-pills" id="hero-pills">
+            <span>Software Engineering</span><span>Network Automation</span><span>Cybersecurity</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore selected work <span>↘</span></a>
+            <a class="button button-quiet" href="#contact">Let's connect <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span class="availability-dot"></span><span id="profile-availability">Open to software engineering, SDET / automation, networking, and cybersecurity opportunities.</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Technical focus illustration">
+          <div class="visual-topline"><span>FIELD NOTES / 001</span><span>DELHI, IN</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="signal signal-a"></div><div class="signal signal-b"></div><div class="signal signal-c"></div>
+          <div class="visual-core"><div class="core-inner"><span class="core-bracket">{ }</span><span class="core-label">BUILD<br>· TEST<br>· SECURE</span></div></div>
+          <div class="visual-coordinate coordinate-a">28°36′N<br>77°12′E</div>
+          <div class="visual-coordinate coordinate-b">SYSTEMS<br>THINKING</div>
+          <div class="visual-bottomline"><span>MAKE IT WORK.</span><span>MAKE IT CLEAR.</span><span>MAKE IT SAFE.</span></div>
+          <div class="visual-index">01 <span>/</span> 04</div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="Professional focus">
+        <div class="section-wrap strip-inner">
+          <span class="strip-label">WHERE I WORK BEST</span>
+          <span><b>01</b> Systems & C++</span><span><b>02</b> Network testing</span><span><b>03</b> Secure applications</span><span><b>04</b> Automation</span>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block" id="work">
+        <div class="section-heading">
+          <div><p class="section-kicker">SELECTED WORK / 01</p><h2>Projects with a <em>point of view.</em></h2></div>
+          <p class="section-intro">I like projects that make a system easier to understand, test, or trust. Here's a selection across networking, systems, and product engineering.</p>
+        </div>
+        <div class="project-toolbar">
+          <div class="project-filters" id="project-filters" aria-label="Filter projects"></div>
+          <span class="project-count" id="project-count">06 PROJECTS</span>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="approach-section" id="approach">
+        <div class="section-wrap section-block">
+          <div class="section-heading light-heading">
+            <div><p class="section-kicker">HOW I THINK / 02</p><h2>Curious by default.<br><em>Precise by design.</em></h2></div>
+            <p class="section-intro">Good engineering is more than getting a green check. It is understanding why a system behaves the way it does—and leaving behind evidence others can trust.</p>
+          </div>
+          <div class="approach-grid">
+            <article class="approach-card"><span class="approach-number">A / 01</span><div class="approach-icon icon-packets">↗<i>···</i></div><h3>Debug from the wire up</h3><p>Use logs, packet captures, and command-line tools to isolate whether a failure lives in the interface, network, service, or application.</p><span class="approach-tag">OBSERVE → ISOLATE → VERIFY</span></article>
+            <article class="approach-card"><span class="approach-number">A / 02</span><div class="approach-icon icon-check">✓</div><h3>Automate repeatable checks</h3><p>Turn manual troubleshooting into clear test steps, predictable results, and useful diagnostic evidence that makes failures easier to reproduce.</p><span class="approach-tag">REPEATABLE BY DEFAULT</span></article>
+            <article class="approach-card"><span class="approach-number">A / 03</span><div class="approach-icon icon-lock">⌑</div><h3>Keep security in the loop</h3><p>Think about authentication, input boundaries, failure modes, and safe validation while building—not as a last-minute checkbox.</p><span class="approach-tag">SECURITY AS A HABIT</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block toolkit-section" id="skills">
+        <div class="section-heading">
+          <div><p class="section-kicker">TOOLS I REACH FOR / 03</p><h2>A practical <em>toolkit.</em></h2></div>
+          <p class="section-intro">I keep strengthening fundamentals and choose tools based on the problem—not the trend. These are the areas I work with and continue to develop.</p>
+        </div>
+        <div class="skills-layout" id="skills-layout"></div>
+      </section>
+
+      <section class="journey-section" id="journey">
+        <div class="section-wrap section-block">
+          <div class="section-heading light-heading">
+            <div><p class="section-kicker">FOUNDATIONS / 04</p><h2>Learning, then <em>building.</em></h2></div>
+            <p class="section-intro">A computer-science foundation, with a current focus on cybersecurity and dependable software systems.</p>
+          </div>
+          <div class="journey-layout">
+            <div class="journey-note"><span class="journey-mark">VK<span>.</span></span><h3>Technical depth with a builder's mindset.</h3><p id="profile-about">My path combines formal computer-science study with hands-on projects—from web applications to low-level systems and network diagnostics.</p><div class="journey-rule"></div><span class="journey-small">CURRENT FOCUS</span><strong>Cybersecurity · Networks · Software Quality</strong></div>
+            <div class="education-list" id="education-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
+        <div class="contact-orbit" aria-hidden="true"></div>
+        <div class="contact-copy"><p class="section-kicker">NEXT UP / LET'S TALK</p><h2>Have a real problem<br>to <em>solve?</em></h2><p>I’m interested in teams building useful software, reliable networked systems, and security-minded tools. Let’s talk about the problem, the constraints, and how I can contribute.</p><div class="contact-actions" id="contact-actions"></div></div>
+        <div class="contact-aside"><span class="aside-label">GOOD FIT FOR</span><span>Software Engineer</span><span>SDET / Test Automation</span><span>Network Software</span><span>Cybersecurity Engineering</span><div class="contact-location" id="profile-location">Delhi, India</div></div>
+      </section>
+    </main>
+
+    <footer class="footer section-wrap"><a class="footer-brand" href="#home">VK<span>.</span></a><p>Built with curiosity, tested with intent.</p><span id="footer-year"></span><button class="footer-admin" id="footer-admin" type="button">Portfolio admin ↗</button></footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal-backdrop" id="login-modal" hidden>
+    <section class="login-card" role="dialog" aria-modal="true" aria-labelledby="login-title">
+      <button class="modal-close" data-close-modal="login-modal" type="button" aria-label="Close">×</button>
+      <div class="login-mark">VK<span>.</span></div><p class="section-kicker">PRIVATE AREA</p><h2 id="login-title">Portfolio control.</h2><p class="muted">Sign in to update profile details, skills, and projects.</p>
+      <form id="login-form"><label for="admin-password">Admin password</label><input id="admin-password" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required><p class="form-error" id="login-error"></p><button class="button button-primary full-button" type="submit">Unlock dashboard <span>↗</span></button></form>
+      <p class="login-footnote">Admin sessions expire after 4 hours.</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop admin-backdrop" id="admin-modal" hidden>
+    <section class="admin-panel" role="dialog" aria-modal="true" aria-labelledby="admin-title">
+      <header class="admin-header"><div><p class="section-kicker">PORTFOLIO CMS</p><h2 id="admin-title">Manage your site.</h2></div><div class="admin-header-actions"><button class="button button-quiet small-button" id="logout-button" type="button">Log out</button><button class="modal-close static-close" data-close-modal="admin-modal" type="button" aria-label="Close">×</button></div></header>
+      <div class="admin-body"><aside class="admin-sidebar"><button class="admin-tab active" data-admin-tab="profile" type="button"><span>01</span> Profile & links</button><button class="admin-tab" data-admin-tab="skills" type="button"><span>02</span> Skills</button><button class="admin-tab" data-admin-tab="projects" type="button"><span>03</span> Projects <b id="admin-project-count">06</b></button><div class="admin-sidebar-note"><span class="tiny-dot"></span><p>Changes save to the server and appear on the public portfolio.</p></div></aside><div class="admin-content" id="admin-content"><div class="admin-loading">Loading your portfolio settings…</div></div></div>
+    </section>
+  </div>
+</body>
+</html>
